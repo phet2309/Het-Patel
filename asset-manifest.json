@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Het-Patel/static/css/main.7d7a9c70.css",
+    "main.js": "/Het-Patel/static/js/main.6b4a8c38.js",
+    "static/js/787.21fbf894.chunk.js": "/Het-Patel/static/js/787.21fbf894.chunk.js",
+    "static/media/fire_bg.jpg": "/Het-Patel/static/media/fire_bg.c81d67e7dd4ebe84831b.jpg",
+    "static/media/self.jpeg": "/Het-Patel/static/media/self.139ab8eb5031415f23d4.jpeg",
+    "static/media/hp_fin2.png": "/Het-Patel/static/media/hp_fin2.77ffe52f52f7ce583fd9.png",
+    "static/media/Melodrama-Semibold.woff2": "/Het-Patel/static/media/Melodrama-Semibold.b089aaae22343414d245.woff2",
+    "static/media/Bosch.woff2": "/Het-Patel/static/media/Bosch.97f76ceb094afcf5e7cf.woff2",
+    "index.html": "/Het-Patel/index.html",
+    "main.7d7a9c70.css.map": "/Het-Patel/static/css/main.7d7a9c70.css.map",
+    "main.6b4a8c38.js.map": "/Het-Patel/static/js/main.6b4a8c38.js.map",
+    "787.21fbf894.chunk.js.map": "/Het-Patel/static/js/787.21fbf894.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d7a9c70.css",
+    "static/js/main.6b4a8c38.js"
+  ]
+}
