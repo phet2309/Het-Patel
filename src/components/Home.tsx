@@ -99,7 +99,7 @@ function Home() {
     return (
         <>
             <Blob />
-            <div className="info">
+            <div className="info" id="home">
                 <div className="name">
                     {
                         selfStr.split('').map((word, index) => {

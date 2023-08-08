@@ -42,12 +42,8 @@
     height: 100%;
     cursor:pointer;
     transition: all 1s ease-out;
-    box-shadow: 10px 30px 57px -17px pink;
+    box-shadow: 10px 15px 50px -17px pink;
     border-radius: 20px;
-    /* box-shadow:  20px 20px 60px #ba9cb3,
-             -20px -20px 60px #fcd4f3; */
-    /* box-shadow: 20px 20px 60px pink,
-             -20px -20px 60px pink; */
     object-fit:fill;
 }
 
@@ -128,4 +124,10 @@
 .project-container a:link,
 .project-container a:visited {
     color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .img-container img {
+        height: 80%;
+    }
 }

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useRef, useState, useEffect } from 'react';
 import { gsap, Expo, Power1 } from 'gsap';
 import logoImg from './assets/images/hp_fin2.png';
+import { Link } from 'react-scroll';
 
 library.add(faBars, faTimes);
 
@@ -78,19 +79,59 @@ function Navbar() {
         />
         <ul ref={navElements}>
           <li>
-            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#">Home</a>
+            <Link 
+              to='home'
+              className='navbar-list-item' 
+              onClick={() => setMenuClicked(false)}
+              spy={true}
+              smooth={true}
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#about">About</a>
+            <Link 
+              to='about'
+              className='navbar-list-item' 
+              onClick={() => setMenuClicked(false)}
+              spy={true}
+              smooth={true}
+            >
+              About
+            </Link>
           </li>
           <li>
-            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#experience">Experience</a>
+            <Link 
+              to='experience'
+              className='navbar-list-item' 
+              onClick={() => setMenuClicked(false)}
+              spy={true}
+              smooth={true}
+            >
+              Experience
+            </Link>
           </li>
           <li>
-            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#projects">Projects</a>
+            <Link 
+              to='projects'
+              className='navbar-list-item' 
+              onClick={() => setMenuClicked(false)}
+              spy={true}
+              smooth={true}
+            >
+              Projects
+            </Link>
           </li>
           <li>
-            <a className='navbar-list-item' onClick={() => setMenuClicked(false)} href="#contact">Contact</a>
+            <Link 
+              to='contact'
+              className='navbar-list-item' 
+              onClick={() => setMenuClicked(false)}
+              spy={true}
+              smooth={true}
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

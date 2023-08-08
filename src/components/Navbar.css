@@ -83,6 +83,7 @@
 .navbar-overlay .navbar-list-item {
     display: inline-block;
     position: relative;
+    cursor: pointer;
 }
 
 .navbar-overlay .navbar-list-item::after {

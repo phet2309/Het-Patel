@@ -1,6 +1,6 @@
 import React, { useRef, Suspense } from "react";
 import { Canvas, useLoader, useFrame } from "@react-three/fiber";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+import { GLTFLoader, GLTF } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { Group } from "three";
 
 
@@ -34,7 +34,8 @@ const GltfModel: React.FC<GltfModelProps> = ({
   position = [0, 0, 0],
 }) => {
   const ref = useRef<Group>(null);
-  const gltf = useLoader(GLTFLoader, 'phoenix_bird.glb');
+  const model = require('./assets/phoenix_bird.glb');
+  const gltf = useLoader(GLTFLoader, model) as GLTF;
 
   useFrame(() => {
     if (ref.current) {

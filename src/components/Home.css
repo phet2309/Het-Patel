@@ -1,6 +1,7 @@
 @font-face {
     font-family: melodrama;
     src: url('./assets/Melodrama-Semibold.woff2');
+    /* src: url('./assets/Bosch.woff2'); */
 }
 
 .info {
@@ -72,11 +73,11 @@
     }
 
     .word3 {
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
 
     .word4 {
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
 }
 

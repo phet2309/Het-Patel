@@ -47,7 +47,7 @@ function About() {
                     <div className="about-links">
                         <div className="link-card">
                             <a href="https://drive.google.com/file/d/1rmzhzRaL6nJWAeB4x_YexvRQFqgZxEYy/view?usp=sharing">
-                                Download Resume
+                                Resume
                             </a>
                         </div>
                         <div className="link-card">

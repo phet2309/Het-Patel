@@ -28,7 +28,8 @@ export const skills: skillsType = {
     ],
     "Cloud Computing": [
         "AWS",
-        "Azure"
+        "Azure",
+        "GCP"
     ],
     "Version Control": [
         "Git/Github",
