@@ -70,7 +70,7 @@ export const projects : Array<ProjectType> = [
         "description": "Data Engineering, Various models like Ridge, Lasso, Random Forest Regressor etc.",
         "tech": " ML, python, numpy, Flask, scikit, pandas, HTML, Heroku",
         "image": flightTicket,
-        "link": "https://airfare-prediction-ml.herokuapp.com/"
+        "link": "https://github.com/phet2309/Flight-Ticket-Price-Prediction"
     }
     
 ];
