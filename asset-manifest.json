@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/Het-Patel/static/css/main.7d7a9c70.css",
-    "main.js": "/Het-Patel/static/js/main.6b4a8c38.js",
+    "main.css": "/Het-Patel/static/css/main.188bd3c8.css",
+    "main.js": "/Het-Patel/static/js/main.75854dfb.js",
     "static/js/787.21fbf894.chunk.js": "/Het-Patel/static/js/787.21fbf894.chunk.js",
+    "static/media/phoenix_bird.glb": "/Het-Patel/static/media/phoenix_bird.351aa170a3778a6c5aa6.glb",
     "static/media/fire_bg.jpg": "/Het-Patel/static/media/fire_bg.c81d67e7dd4ebe84831b.jpg",
+    "static/media/project2.png": "/Het-Patel/static/media/project2.3ce4a1211266611aaca1.png",
+    "static/media/furniture.jpeg": "/Het-Patel/static/media/furniture.4a83877b93d830d3fea2.jpeg",
+    "static/media/fedLearning.png": "/Het-Patel/static/media/fedLearning.5adb435193bd0a4483b9.png",
     "static/media/self.jpeg": "/Het-Patel/static/media/self.139ab8eb5031415f23d4.jpeg",
+    "static/media/writingImg.jpeg": "/Het-Patel/static/media/writingImg.84c5ce2a9045dc590aa0.jpeg",
     "static/media/hp_fin2.png": "/Het-Patel/static/media/hp_fin2.77ffe52f52f7ce583fd9.png",
+    "static/media/cloudComputing.jpeg": "/Het-Patel/static/media/cloudComputing.89e4a8a5fe88d5003544.jpeg",
     "static/media/Melodrama-Semibold.woff2": "/Het-Patel/static/media/Melodrama-Semibold.b089aaae22343414d245.woff2",
+    "static/media/creditManagement.jpeg": "/Het-Patel/static/media/creditManagement.4eac370419f2a5298f81.jpeg",
     "static/media/Bosch.woff2": "/Het-Patel/static/media/Bosch.97f76ceb094afcf5e7cf.woff2",
+    "static/media/flightTicket.avif": "/Het-Patel/static/media/flightTicket.5df8e359408f8bbe4f65.avif",
+    "static/media/socketImg.avif": "/Het-Patel/static/media/socketImg.3770a3911a13a98cc64b.avif",
     "index.html": "/Het-Patel/index.html",
-    "main.7d7a9c70.css.map": "/Het-Patel/static/css/main.7d7a9c70.css.map",
-    "main.6b4a8c38.js.map": "/Het-Patel/static/js/main.6b4a8c38.js.map",
+    "main.188bd3c8.css.map": "/Het-Patel/static/css/main.188bd3c8.css.map",
+    "main.75854dfb.js.map": "/Het-Patel/static/js/main.75854dfb.js.map",
     "787.21fbf894.chunk.js.map": "/Het-Patel/static/js/787.21fbf894.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d7a9c70.css",
-    "static/js/main.6b4a8c38.js"
+    "static/css/main.188bd3c8.css",
+    "static/js/main.75854dfb.js"
   ]
 }
