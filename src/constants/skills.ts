@@ -8,20 +8,23 @@ export const skills: skillsType = {
         "Python",
         "C/C++",
         "JavaScript",
+        "Typescript",
         "HTML",
         "CSS",
+        "Shell scripting",
         "Matlab",
         "PL/SQL"
     ],
     "Development Framework": [
-        "SpringBoot",
         "ReactJS",
         "NodeJs",
+        "SpringBoot",
         "ExpressJs",
         "Angular",
         "Django",
     ],
     "Database": [
+        "MongoDb",
         "PostgreSQL",
         "MySQL",
         "Oracele Database"
@@ -30,6 +33,11 @@ export const skills: skillsType = {
         "AWS",
         "Azure",
         "GCP"
+    ],
+    "DevOps": [
+        "Docker", 
+        "Kubernetes",
+        "Jenkins"
     ],
     "Version Control": [
         "Git/Github",

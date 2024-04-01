@@ -1,7 +1,7 @@
 
 import { useEffect, useRef } from 'react';
 import './About.css';
-import myImage from './assets/images/self.jpeg';
+import myImage from './assets/images/self2.jpg';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -42,11 +42,11 @@ function About() {
             <div id="about" className="container">
                 <div className="text-content" ref={textContentRef}>
                     <p>
-                        Full-Time Graduate student with one year of experience in software development including project management, leading team, and agile development of software. Ability to build user-centric web applications, full stack applications, and more designed to scale leveraging my problem-solving skills. A fast learner with strong time management, multi-tasking, and troubleshooting skills with an analytical mindset.
+                        Full-Time Graduate student with two year of experience in software development including project management, leading team, and agile development of software. Ability to build user-centric web applications, full stack applications, and more designed to scale leveraging my problem-solving skills. A fast learner with strong time management, multi-tasking, and troubleshooting skills with an analytical mindset.
                     </p>
                     <div className="about-links">
                         <div className="link-card">
-                            <a href="https://drive.google.com/file/d/1rmzhzRaL6nJWAeB4x_YexvRQFqgZxEYy/view?usp=sharing">
+                            <a href="https://drive.google.com/file/d/1D4vG-CkwSToYa24tG4MhNGm84uwVb3Up/view?usp=sharing">
                                 Resume
                             </a>
                         </div>

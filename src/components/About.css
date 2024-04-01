@@ -9,6 +9,14 @@
     background: black;
 }
 
+.container img {
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
 .text-content {
     font-size: 1.5rem;
     display: flex;

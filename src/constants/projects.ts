@@ -1,3 +1,4 @@
+import carpoolImage from '../components/assets/images/carpoolImage.png';
 import furnitureImage from '../components/assets/images/furniture.jpeg';
 import fileTypeImage from '../components/assets/images/project2.png';
 import answerSheet from '../components/assets/images/writingImg.jpeg';
@@ -16,6 +17,13 @@ export interface ProjectType {
 }
 
 export const projects : Array<ProjectType> = [
+    {
+        "title": "Carpool App",
+        "description": "Online carpool app with Google maps api integrated. Jwt authentication, user registration, redis caching, Postgres database queries, ride search and ride pairing. React js with Typescript, and used React hooks such as useCallback, useContext",
+        "tech": "NodeJs, ReactJs, PostgreSql, Typescript",
+        "image": carpoolImage,
+        "link": "https://car-pool-app-sable.vercel.app/"
+    },
     {
         "title": "Online Furniture Shopping App",
         "description": "Online ecommerce store with product addition, buy-sell and record maintenance. Jwt authentication with admin and user access. Api request handling and processing using postgresql query",

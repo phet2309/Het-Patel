@@ -11,6 +11,7 @@ const {
   "Development Framework": devFrameworks,
   "Database": databases,
   "Cloud Computing": cloudComputing,
+  "DevOps": devops,
   "Version Control": versionControl,
   "Miscellaneous": misc,
   "Coding Platforms": codingPlatforms,
@@ -34,8 +35,8 @@ function Skills() {
             },
             scrollTrigger: {
                 trigger: skillContent as Element,
-                start: 'top 100%',
-                end: 'top 70%',
+                start: 'top 70%',
+                end: 'top 50%',
                 scrub: true
             },
         });
@@ -84,6 +85,16 @@ function Skills() {
             <div className="programming-languages-skills">
               {
                 cloudComputing.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>DevOps Tools: </span>
+            <div className="programming-languages-skills">
+              {
+                devops.map((skill, index) => (
                   <div key={index} className="skill-card">{skill}</div>
                 ))
               }

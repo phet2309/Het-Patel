@@ -63,7 +63,15 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <img src={logoImg} alt="Het" />
+          <Link 
+              to='home'
+              className='navbar-list-item' 
+              onClick={() => setMenuClicked(false)}
+              spy={true}
+              smooth={true}
+            >
+              <img style={{cursor: 'pointer'}} src={logoImg} alt="Het" />
+          </Link>
 
         <FontAwesomeIcon
             icon={faBars}
