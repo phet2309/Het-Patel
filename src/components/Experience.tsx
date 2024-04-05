@@ -38,14 +38,14 @@ function Experience() {
                         <li>Utilized Elastic Kibana and Grafana for monitoring and analyzing application performance metrics, identifying areas for optimization and improvement.</li>
                         <li>Leveraged Docker for containerization, facilitating easy deployment and scalability of applications across different environments.</li>
                     </div>
-                    <div className="ele3">
+                    {/* <div className="ele3">
                         <h2>Teaching Assistant</h2>
                         <h4>New Jersey Institute of Technology</h4>
 
                         <li>Teaching assistant for CS631-Data Management System Design and CS331-Database System Design and Management.</li>
                         <li>Helping students in resolving their doubts and evaluating assignments and exam submissions.</li>
 
-                    </div>
+                    </div> */}
                     <div className="ele4">
                         <h2>Freelance Project</h2>
                         <h4>Khelo 5050 Fundraiser</h4>
