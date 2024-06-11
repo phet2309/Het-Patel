@@ -9,13 +9,21 @@ gsap.registerPlugin(ScrollTrigger);
 const {
   "Programming Language": programmingLanguages,
   "Development Framework": devFrameworks,
-  "Database": databases,
-  "Cloud Computing": cloudComputing,
-  "DevOps": devops,
+  "J2EE Technologies": j2eeTechnologies,
+  "Web Services": webServices,
+  "Database Technologies": databases,
+  "Web Technologies": webTechnologies,
+  "Web/App servers": webAppServers,
   "Version Control": versionControl,
+  "Build Tools": buildTools,
+  "DevOps": devops,
+  "Cloud Platforms": cloudComputing,
+  "IDEs": ides,
+  "Testing and Logging Tools": testingTools,
+  "Soft Skills": softSkills,
+  "Operating Systems": operatingSystems,
   "Miscellaneous": misc,
   "Coding Platforms": codingPlatforms,
-  "Soft Skills": softSkills
 } = skills;
 
 function Skills() {
@@ -71,7 +79,27 @@ function Skills() {
             </div>
           </div>
           <div className="programming-languages">
-            <span>Database: </span>
+            <span>J2EE Technologies: </span>
+            <div className="programming-languages-skills">
+              {
+                j2eeTechnologies.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>Web Services: </span>
+            <div className="programming-languages-skills">
+              {
+                webServices.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>Database Technologies: </span>
             <div className="programming-languages-skills">
               {
                 databases.map((skill, index) => (
@@ -81,20 +109,20 @@ function Skills() {
             </div>
           </div>
           <div className="programming-languages">
-            <span>Cloud Computing: </span>
+            <span>Web Technologies: </span>
             <div className="programming-languages-skills">
               {
-                cloudComputing.map((skill, index) => (
+                webTechnologies.map((skill, index) => (
                   <div key={index} className="skill-card">{skill}</div>
                 ))
               }
             </div>
           </div>
           <div className="programming-languages">
-            <span>DevOps Tools: </span>
+            <span>Web/App servers: </span>
             <div className="programming-languages-skills">
               {
-                devops.map((skill, index) => (
+                webAppServers.map((skill, index) => (
                   <div key={index} className="skill-card">{skill}</div>
                 ))
               }
@@ -105,6 +133,76 @@ function Skills() {
             <div className="programming-languages-skills">
               {
                 versionControl.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>Build Tools: </span>
+            <div className="programming-languages-skills">
+              {
+                buildTools.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>DevOps: </span>
+            <div className="programming-languages-skills">
+              {
+                devops.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>Cloud Platforms: </span>
+            <div className="programming-languages-skills">
+              {
+                cloudComputing.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>IDEs: </span>
+            <div className="programming-languages-skills">
+              {
+                ides.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>Testing and Logging Tools: </span>
+            <div className="programming-languages-skills">
+              {
+                testingTools.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>Soft Skills: </span>
+            <div className="programming-languages-skills">
+              {
+                softSkills.map((skill, index) => (
+                  <div key={index} className="skill-card">{skill}</div>
+                ))
+              }
+            </div>
+          </div>
+          <div className="programming-languages">
+            <span>Operating Systems: </span>
+            <div className="programming-languages-skills">
+              {
+                operatingSystems.map((skill, index) => (
                   <div key={index} className="skill-card">{skill}</div>
                 ))
               }
@@ -125,16 +223,6 @@ function Skills() {
             <div className="programming-languages-skills">
               {
                 codingPlatforms.map((skill, index) => (
-                  <div key={index} className="skill-card">{skill}</div>
-                ))
-              }
-            </div>
-          </div>
-          <div className="programming-languages">
-            <span>Soft Skills: </span>
-            <div className="programming-languages-skills">
-              {
-                softSkills.map((skill, index) => (
                   <div key={index} className="skill-card">{skill}</div>
                 ))
               }

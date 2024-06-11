@@ -7,41 +7,139 @@ export const skills: skillsType = {
         "Java",
         "Python",
         "C/C++",
-        "JavaScript",
-        "Typescript",
-        "HTML",
-        "CSS",
+        // "JavaScript",
+        // "Typescript",
+        // "HTML",
+        // "CSS",
         "Shell scripting",
         "Matlab",
         "PL/SQL"
     ],
     "Development Framework": [
-        "ReactJS",
-        "NodeJs",
-        "SpringBoot",
-        "ExpressJs",
-        "Angular",
-        "Django",
+        "Spring MVC",
+        "Spring",
+        "Hibernate",
+        "Spring Boot",
+        "Spring Security",
+        "Spring Data JPA",
+        "Node.js",
+        "React.js",
+        "Express.js",
+        "Angular.js",
+        "Next.js"
     ],
-    "Database": [
-        "MongoDb",
-        "PostgreSQL",
+    "J2EE Technologies": [
+        "Servlets",
+        "JSP",
+        "JDBC",
+        "JUnit",
+        "JAXB",
+        "JMS",
+        "JSTL",
+        "Multi-threading",
+        "EJB",
+        "JavaBeans",
+        "JNDI",
+        "JSF",
+        "JSTL",
+        "Multithreading",
+        "Generics",
+        "Concurrency",
+        "Collections"
+    ],
+    "Web Services": [
+        "JAX-WS",
+        "JAX-RS",
+        "SOAP",
+        "WSDL",
+        "REST"
+    ],
+    "Database Technologies": [
+        "Oracle",
         "MySQL",
-        "Oracele Database"
+        "SQL Server",
+        "DB2",
+        "PostgreSQL",
+        "MongoDB",
+        "Cassandra",
+        "Cosmos DB",
+        "DynamoDB"
     ],
-    "Cloud Computing": [
-        "AWS",
-        "Azure",
-        "GCP"
+    "Web Technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "RESTful APIs",
+        "GraphQL",
+        "TypeScript",
+        "jQuery",
+        "Ajax",
+        "DHTML",
+        "XPath",
+        "XML",
+        "JSON",
+        "Bootstrap"
+    ],
+    "Web/App servers": [
+        "WebLogic",
+        "WebSphere",
+        "Tomcat web server",
+        "JBoss/Wild Fly"
+    ],
+    "Version Control": [
+        "Github",
+        "Bit bucket",
+        "SVN",
+        "Gitlab"
+    ],
+    "Build Tools": [
+        "Maven",
+        "Gradle",
+        "Ant"
     ],
     "DevOps": [
         "Docker", 
         "Kubernetes",
-        "Jenkins"
+        "Jenkins",
+        "Bamboo",
+        "Ansible"
     ],
-    "Version Control": [
-        "Git/Github",
-        "Bitbucket"
+    "Cloud Platforms": [
+        "AWS",
+        "Azure",
+        "GCP"
+    ],
+    "IDEs": [
+        "IntelliJ IDEA",
+        "Eclipse",
+        "Visual Studio Code"
+    ],
+    "Testing and Logging Tools": [
+        "Junit",
+        "Mockito",
+        "Selenium",
+        "TestNG",
+        "Power Mock",
+        "Jasmine",
+        "Protractor",
+        "JMeter",
+        "Jest",
+        "Enzyme",
+        "Cucumber",
+        "Log4J"
+    ],
+    "Soft Skills": [
+        "Project Management",
+        "Team Management",
+        "Communication Skill",
+        "Leadership",
+        "Multi-Tasking"
+    ],
+    "Operating Systems": [
+        "Windows",
+        "Linux",
+        "Unix",
+        "Mac OS"
     ],
     "Miscellaneous": [
         "REST",
@@ -58,13 +156,5 @@ export const skills: skillsType = {
     "Coding Platforms": [
         "LeetCode",
         "Codeforces"
-    ],
-    "Soft Skills": [
-        "Project Management",
-        "Team Management",
-        "Communication Skill",
-        "Leadership",
-        "Multi-Tasking"
     ]
-
 }
