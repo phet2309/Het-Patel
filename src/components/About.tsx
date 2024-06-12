@@ -59,7 +59,8 @@ function About() {
                     </ul> */}
                     <div className="about-links">
                         <div className="link-card">
-                            <a href="https://drive.google.com/file/d/1azyE6pOyAmqjJdxbyrpQRncPULEmJcqd/view?usp=sharing">
+                            {/* <a href="https://drive.google.com/file/d/1azyE6pOyAmqjJdxbyrpQRncPULEmJcqd/view?usp=sharing"> */}
+                            <a href="https://drive.google.com/file/d/1Sf8kUurmRafl_V_3cO5TjkWMzdxro7G9/view?usp=sharing">
                                 Resume
                             </a>
                         </div>
