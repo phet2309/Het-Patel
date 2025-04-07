@@ -11,6 +11,45 @@ function Experience() {
                 <h1>Experience</h1>
                 <div className="element-container">
                     <div className="ele1">
+                        <h2>Software Engineer</h2>
+                        <h4>State of New Jersey - Department of Environmental Protection, USA</h4>
+                        <li>Followed iterative application improvement determined by Agile Scrum procedure consisting of week after week Sprints and stand-up gatherings and fabricated the application with Test Driven Development (TDD).</li>
+                        <li>Involved in outlining and improving the UI, using React 18, JavaScript, and TypeScript in conjunction with HTML5 and CSS3.</li>
+                        <li>Used Create React App (CRA) and Vite for configuring and building a React 18 application for development. Developed a reusable React component library utilizing TypeScript for company-wide use, enhancing UI consistency and developer efficiency across multiple projects.</li>
+                        <li>Experience in React.js by modernizing UI components, improving performance, and integrating RESTful APIs for a seamless transition</li>
+                        <li>Built reusable React components and custom hooks, leveraging React Context API for state management, Axios interceptors for request handling, and custom utility functions for data transformation.</li>
+                        <li>Developed a dynamic React 18 application using TypeScript and Material UI, featuring a customizable data table with pagination and filtering. Integrated a responsive form with a Node.js API for real-time data display, enhancing user experience.</li>
+                        <li>Proficient in writing unit and integration tests using Jest  to ensure code quality and maintainability in React 18.</li>
+                        <li>Using Java Designed the framework given Spring MVC Model design. Built up a business rationale layer utilizing Spring</li>
+                        <li>Dependency Injection and customer-side Java beans for DAO Design Patterns.</li>
+                        <li>Configured and optimized Spring Boot applications by automating scheduled tasks with cron jobs, integrating Azure</li>
+                        <li>Service Bus for reliable asynchronous messaging, Azure Cosmos DB for scalable NoSQL database interactions, and Azure</li>
+                        <li>Blob Storage for efficient file storage and retrieval, leveraging the Azure SDK for Java and Spring Data Cosmos.</li>
+                        <li>Implemented unit testing in Spring Boot using JUnit 5, Mockito, and Spring Test context for isolated service layer validation. Developed integration tests with Spring Boot Test.</li>
+                        <li>Developed and deployed scalable Spring Boot microservices with RESTful APIs, integrating Hibernate and Spring Data JPA for efficient data handling and CRUD operations. Leveraged JpaRepository for custom queries, pagination, and performance optimization.</li>
+                        <li>Implemented Spring Security, OAuth2 authentication with JWT, Spring Boot Actuator for monitoring, and Spring Cloud for distributed configuration.</li>
+                        <li>Performed CRUD operations and data transmission in PostgreSQL, leveraging RESTful web services for efficient database interaction.</li>
+                        <li>Configured and deployed Java applications on Microsoft Azure for high scalability and performance, leveraging Azure services such as App Service, Azure Kubernetes Service (AKS) utilizing Kubernetes, and Azure Cloud infrastructure.</li>
+                        <li>Utilized Jenkins for continuous integration and Docker for containerization, ensuring efficient deployment and scalability</li>
+                        <li>Extensively utilized Log4j for error logging, troubleshooting, and exception handling, while creating project artifacts with</li>
+                        <li>Maven and building the application using IntelliJ IDE.</li>
+                        <li>Automation testing for the portal using Python Selenium</li>
+                        <li>SQL database query for creation of reports and optimizing sql queries for faster data retrieval</li>
+                        <li>Historical data migration and processing utilising fuzzy search, data processing and semantic matching</li>
+                        <li>Retrieval-Augmented Generation model  for department’s rule change comments analysis and feedback</li>
+                    </div>
+                    <div className="ele2">
+                        <h2>Software Engineer</h2>
+                        <h4>LooperRoom, USA</h4>
+                        <li>Developed and deployed a cross-platform mobile application using React Native for both Android and iOS, managing the entire publishing process via Google Play Console and Apple App Store.</li>
+                        <li>Integrated AWS services including SES for transactional emails, Cognito User Pools for secure user authentication, and S3 buckets for cloud storage.</li>
+                        <li>Administered website maintenance and handled DNS updates for custom domain setup and mail server configuration.</li>
+                        <li>Built webhook integrations connecting Shopify and Intuit QuickBooks to AWS Lambda, automating business workflows.</li>
+                        <li>Designed and implemented a decision tree-based chatbot using Depth-First Search (DFS) logic, real-time WebSocket communication, and vector similarity for dynamic response generation.</li>
+                        <li>Integrated sentiment analysis to enhance chatbot interactions and improve user engagement.</li>
+                        <li>Created a scalable enterprise dashboard using React + TypeScript, providing data visualization and real-time analytics for business users.</li>
+                    </div>
+                    {/* <div className="ele1">
                         <h2>Software Developer</h2>
                         <h3>Jan 2024-Current</h3>
                         <h4>Nexla, USA</h4>
@@ -26,8 +65,8 @@ function Experience() {
                         <li>Configured and sent Java applications on Amazon Web Services (AWS) for a large number of utilizations using the AWS stack, and cloud arrangement.</li>
                         <li>Extensively utilized Log4j for Logging Errors, troubleshooting, and following and Exception explanations.</li>
                         <li>Created manufacture records utilizing Maven. Built up the application utilizing Eclipse IDE.</li>
-                    </div>
-                    <div className="ele2">
+                    </div> */}
+                    {/* <div className="ele2">
                         <h2>Software Developer</h2>
                         <h3>Jan 2020 - Aug 2022</h3>
                         <h4>Innoventix Solutions, India</h4>
@@ -44,7 +83,7 @@ function Experience() {
                         <li>Developed complex SQL stored procedures for optimized data retrieval and manipulation, improving query efficiency.</li>
                         <li>Orchestrated Docker containers and employed Terraform for infrastructure management, ensuring consistency across development, testing, and production environments.</li>
                         <li>Automated CI/CD pipelines using Jenkins, reducing deployment time and enhancing the overall software development lifecycle.</li>                  
-                    </div>
+                    </div> */}
 
                     {/* <div className="ele1">
                         <h2>Full Stack Developer</h2>
@@ -59,7 +98,7 @@ function Experience() {
                         <li>Led deployment processes and change requests, meticulously validating deployments to ensure successful implementation of new features and updates.</li>
                         <li>Actively participated in Scrum meetings within the context of a microservices architecture, following agile methodologies, and maintained JIRA tickets for efficient tracking of project tasks and issues across microservices.</li>
                     </div> */}
-                    {/* <div className="ele2">
+                    <div className="ele3">
                         <h2>Software Engineer</h2>
                         <h4>Blueoptima</h4>
                         <li>Developed new features and enhancements in Nodejs and Spring Boot, contributing to the overall functionality and performance of the application.</li>
@@ -73,15 +112,15 @@ function Experience() {
                         <li>Managed server maintenance tasks and configurations, ensuring the availability and stability of production systems.</li>
                         <li>Utilized Elastic Kibana and Grafana for monitoring and analyzing application performance metrics, identifying areas for optimization and improvement.</li>
                         <li>Leveraged Docker for containerization, facilitating easy deployment and scalability of applications across different environments.</li>
-                    </div> */}
-                    {/* <div className="ele3">
+                    </div>
+                    <div className="ele4">
                         <h2>Teaching Assistant</h2>
                         <h4>New Jersey Institute of Technology</h4>
 
                         <li>Teaching assistant for CS631-Data Management System Design and CS331-Database System Design and Management.</li>
                         <li>Helping students in resolving their doubts and evaluating assignments and exam submissions.</li>
 
-                    </div> */}
+                    </div>
                     {/* <div className="ele4">
                         <h2>Freelance Project</h2>
                         <h4>Khelo 5050 Fundraiser</h4>
@@ -90,14 +129,13 @@ function Experience() {
                         <li>Built payment gateway and influencer referral system.</li>
 
                     </div> */}
-                    {/* <div className="ele5">
+                    <div className="ele5">
                         <h2>Research Intern</h2>
                         <h4>SPIRE Lab, IISC Bangalore</h4>
 
                         <li>Apply deep learning techniques and neural networks to improve acoustic and language models</li>
                         <li>Data collection, web scraping and building a language model</li>
-
-                    </div> */}
+                    </div>
                 </div>
 
             </div>
