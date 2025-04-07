@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Het-Patel/static/css/main.cb327cfe.css",
-    "main.js": "/Het-Patel/static/js/main.df6dfcd5.js",
+    "main.js": "/Het-Patel/static/js/main.b3270282.js",
     "static/js/787.21fbf894.chunk.js": "/Het-Patel/static/js/787.21fbf894.chunk.js",
     "static/media/carpoolImage.png": "/Het-Patel/static/media/carpoolImage.c6f0b8d3427e34840c6f.png",
     "static/media/phoenix_bird.glb": "/Het-Patel/static/media/phoenix_bird.351aa170a3778a6c5aa6.glb",
@@ -20,11 +20,11 @@
     "static/media/socketImg.avif": "/Het-Patel/static/media/socketImg.3770a3911a13a98cc64b.avif",
     "index.html": "/Het-Patel/index.html",
     "main.cb327cfe.css.map": "/Het-Patel/static/css/main.cb327cfe.css.map",
-    "main.df6dfcd5.js.map": "/Het-Patel/static/js/main.df6dfcd5.js.map",
+    "main.b3270282.js.map": "/Het-Patel/static/js/main.b3270282.js.map",
     "787.21fbf894.chunk.js.map": "/Het-Patel/static/js/787.21fbf894.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb327cfe.css",
-    "static/js/main.df6dfcd5.js"
+    "static/js/main.b3270282.js"
   ]
 }
