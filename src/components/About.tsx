@@ -60,7 +60,12 @@ function About() {
                     <div className="about-links">
                         <div className="link-card">
                             {/* <a href="https://drive.google.com/file/d/1azyE6pOyAmqjJdxbyrpQRncPULEmJcqd/view?usp=sharing"> */}
-                            <a href="https://drive.google.com/file/d/1Sf8kUurmRafl_V_3cO5TjkWMzdxro7G9/view?usp=sharing">
+                            <a 
+                            // href="https://drive.google.com/file/d/1Sf8kUurmRafl_V_3cO5TjkWMzdxro7G9/view?usp=sharing"
+                                href='https://drive.google.com/file/d/1Ke-NKodyAqYPvVUPZzct3Av5UkONKOIr/view?usp=sharing'
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 Resume
                             </a>
                         </div>
