@@ -4,9 +4,46 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faHashtag } from '@fortawesome/free-solid-svg-icons';
 import Gl from './Gl';
+import { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 
 function Contact() {
+
+    useEffect(() => {
+        gsap.fromTo(
+            '.contact-right',
+            { yPercent: 15 },
+            {
+                yPercent: -15,
+                ease: 'none',
+                scrollTrigger: {
+                    trigger: '.contact-container',
+                    start: 'top bottom',
+                    end: 'bottom bottom',
+                    scrub: true,
+                },
+            }
+        );
+
+        gsap.fromTo(
+            '.contact-left',
+            { yPercent: -10 },
+            {
+                yPercent: 10,
+                ease: 'none',
+                scrollTrigger: {
+                    trigger: '.contact-container',
+                    start: 'top bottom',
+                    end: 'bottom bottom',
+                    scrub: true,
+                },
+            }
+        );
+    }, []);
 
     return (
         <>

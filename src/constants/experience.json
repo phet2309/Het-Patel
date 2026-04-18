@@ -1,0 +1,104 @@
+[
+  {
+    "position": "Senior Software Engineer",
+    "company": "Zealthy, USA",
+    "bullets": [
+      "Followed iterative application improvement determined by Agile Scrum procedure consisting of week after week Sprints and stand-up gatherings and fabricated the application with Test Driven Development (TDD).",
+      "Involved in outlining and improving the UI, using NextJs 16, JavaScript, and TypeScript in conjunction with HTML5 and CSS3.",
+      "Used Create React App (CRA) and Vite for configuring and building a React 18 application for development. Developed a reusable React component library utilizing TypeScript for company-wide use, enhancing UI consistency and developer efficiency across multiple projects.",
+      "Implemented Server-Side Rendering (SSR) using Next.js, significantly improving page load speed and SEO performance.",
+      "Reduced API calls by implementing caching strategies for Supabase queries, improving application efficiency and reducing backend load.",
+      "Migrated authentication system to Clerk, improving user engagement and streamlining authentication workflows.",
+      "Developed reusable React component library using TypeScript, accelerating development speed and ensuring UI consistency across projects.",
+      "Built dynamic React 18 applications using TypeScript and Material UI with advanced data tables (pagination, filtering) and real-time API integrations.",
+      "Developed reusable custom hooks and leveraged Context API for scalable state management.",
+      "Migrated legacy JSF applications to React.js, improving performance and modernizing UI architecture.",
+      "Wrote unit and integration tests using Jest and React Testing Library to maintain high code quality.",
+      "Experience in migrating JSF applications to React.js by modernizing UI components, improving performance, and integrating RESTful APIs for a seamless transition",
+      "Built and deployed RESTful APIs using Spring Boot, reducing average response time by 35% through optimized query handling and caching.",
+      "Designed a microservices-based architecture with Spring Cloud, improving system scalability and enabling 50% faster feature deployments.",
+      "Implemented secure authentication (JWT + Spring Security), preventing unauthorized access and improving overall application security compliance.",
+      "Built reusable React components and custom hooks, leveraging React Context API for state management, Axios interceptors for request handling, and custom utility functions for data transformation.",
+      "Developed a dynamic React 18 application using TypeScript and Material UI, featuring a customizable data table with pagination and filtering. Integrated a responsive form with a Node.js API for real-time data display, enhancing user experience.",
+      "Proficient in writing unit and integration tests using Jest, React Testing Library, and Enzyme to ensure code quality and maintainability in React 18."
+    ]
+  },
+  {
+    "position": "Software Engineer",
+    "company": "State of New Jersey - Department of Environmental Protection, USA",
+    "bullets": [
+      "Followed iterative application improvement determined by Agile Scrum procedure consisting of week after week Sprints and stand-up gatherings and fabricated the application with Test Driven Development (TDD).",
+      "Involved in outlining and improving the UI, using React 18, JavaScript, and TypeScript in conjunction with HTML5 and CSS3.",
+      "Used Create React App (CRA) and Vite for configuring and building a React 18 application for development. Developed a reusable React component library utilizing TypeScript for company-wide use, enhancing UI consistency and developer efficiency across multiple projects.",
+      "Experience in React.js by modernizing UI components, improving performance, and integrating RESTful APIs for a seamless transition",
+      "Built reusable React components and custom hooks, leveraging React Context API for state management, Axios interceptors for request handling, and custom utility functions for data transformation.",
+      "Developed a dynamic React 18 application using TypeScript and Material UI, featuring a customizable data table with pagination and filtering. Integrated a responsive form with a Node.js API for real-time data display, enhancing user experience.",
+      "Proficient in writing unit and integration tests using Jest  to ensure code quality and maintainability in React 18.",
+      "Using Java Designed the framework given Spring MVC Model design. Built up a business rationale layer utilizing Spring Dependency Injection and customer-side Java beans for DAO Design Patterns.",
+      "Configured and optimized Spring Boot applications by automating scheduled tasks with cron jobs, integrating Azure Service Bus for reliable asynchronous messaging, Azure Cosmos DB for scalable NoSQL database interactions, and Azure Blob Storage for efficient file storage and retrieval, leveraging the Azure SDK for Java and Spring Data Cosmos.",
+      "Implemented unit testing in Spring Boot using JUnit 5, Mockito, and Spring Test context for isolated service layer validation. Developed integration tests with Spring Boot Test.",
+      "Developed and deployed scalable Spring Boot microservices with RESTful APIs, integrating Hibernate and Spring Data JPA for efficient data handling and CRUD operations. Leveraged JpaRepository for custom queries, pagination, and performance optimization. Implemented Spring Security, OAuth2 authentication with JWT, Spring Boot Actuator for monitoring, and Spring Cloud for distributed configuration.",
+      "Performed CRUD operations and data transmission in PostgreSQL, leveraging RESTful web services for efficient database interaction.",
+      "Configured and deployed Java applications on Microsoft Azure for high scalability and performance, leveraging Azure services such as App Service, Azure Kubernetes Service (AKS) utilizing Kubernetes, and Azure Cloud infrastructure. Utilized Jenkins for continuous integration and Docker for containerization, ensuring efficient deployment and scalability",
+      "Leveraged Azure tools and services including Azure Virtual Machines, Azure SQL Database, Azure Event Hubs, Azure API Management, and Azure DevOps to develop, deploy, and manage scalable, secure, and highly available cloud-based applications.",
+      "Extensively utilized Log4j for error logging, troubleshooting, and exception handling, while creating project artifacts with Maven and building the application using Eclipse IDE.",
+      "Automation testing for the portal using Python Selenium",
+      "SQL database query for creation of reports and optimizing sql queries for faster data retrieval",
+      "Historical data migration and processing utilising fuzzy search, data processing and semantic matching",
+      "Retrieval-Augmented Generation model  for department’s rule change comments analysis and feedback"
+    ]
+  },
+  {
+    "position": "Software Engineer",
+    "company": "BlueOptima",
+    "bullets": [
+      "Involved in the Design, Development, and Support phases of the Software Development Life Cycle (SDLC)-Agile (scrum).",
+      "Using Java developed RESTful web services. Used NodeJS, and Express JS to communicate with databases through Mongoose.",
+      "Designed responsive web applications using React components, hooks, and lifecycle methods to provide a smooth user experience across different devices.",
+      "Managed global application state using React Context for simple scenarios and Redux Toolkit for more complex state management across multiple components",
+      "Applied React.memo and dynamic import to optimize rendering and reduce load times, improving overall application performance and user satisfaction.",
+      "Developed reusable hooks like useFetch, useLocalStorage, and useDebounce to simplify component logic and enhance code maintainability, while integrating RESTful APIs and WebSocket services using React hooks for data fetching and real-time updates.",
+      "Experience in Salesforce as both an Admin and Developer, including customizing workflows, creating Apex classes, triggers, and Visualforce pages, and managing user permissions and data models to optimize business processes.",
+      "Designed and developed the application using Spring Framework modules like Spring IOC, and Spring AOP and handled security using Spring Security OAuth and JWT token.",
+      "Used Microservice architecture, with Spring Boot-based services interacting through a combination of REST and MQ, and used AWS to build, test, and deploy Microservices.",
+      "Designed and optimized AWS DynamoDB schemas, implemented efficient indexing, and managed high-throughput workloads using on-demand and provisioned capacity. Also integrated DynamoDB with AWS Lambda, API Gateway, and stream processing to build scalable and serverless applications.",
+      "Used Spring IOC for dependency injection and developed controllers to handle HTTP requests and responses.",
+      "Integrated AWS SQS and SES with Spring Boot applications to enable seamless messaging and email notifications, improving system efficiency and user communication.",
+      "Designed and implemented batch processing workflows using Spring Batch for handling large-scale data processing tasks in the background, such as processing transaction records, log files, and generating reports.",
+      "Implemented secure authentication in React using AWS Cognito, with AWS Lambda for serverless computing and S3 for scalable data storage, optimizing performance.",
+      "Utilized AWS EC2, Elastic Beanstalk, ECS, EKS, and EMR for scalable computing, container orchestration, and big data processing, with CloudWatch for monitoring.",
+      "Developed complex SQL stored procedures for optimized data retrieval and manipulation, improving query efficiency.",
+      "Orchestrated Docker containers and managed infrastructure with AWS for consistency across environments. Automated CI/CD pipelines with Jenkins to streamline deployments."
+    ]
+  },
+  {
+    "hidden": true,
+    "position": "Software Engineer",
+    "company": "LooperRoom, USA",
+    "bullets": [
+      "Developed and deployed a cross-platform mobile application using React Native for both Android and iOS, managing the entire publishing process via Google Play Console and Apple App Store.",
+      "Integrated AWS services including SES for transactional emails, Cognito User Pools for secure user authentication, and S3 buckets for cloud storage.",
+      "Administered website maintenance and handled DNS updates for custom domain setup and mail server configuration.",
+      "Built webhook integrations connecting Shopify and Intuit QuickBooks to AWS Lambda, automating business workflows.",
+      "Designed and implemented a decision tree-based chatbot using Depth-First Search (DFS) logic, real-time WebSocket communication, and vector similarity for dynamic response generation.",
+      "Integrated sentiment analysis to enhance chatbot interactions and improve user engagement.",
+      "Created a scalable enterprise dashboard using React + TypeScript, providing data visualization and real-time analytics for business users."
+    ]
+  },
+  {
+    "position": "Teaching Assistant",
+    "company": "New Jersey Institute of Technology",
+    "bullets": [
+      "Teaching assistant for CS631-Data Management System Design and CS331-Database System Design and Management.",
+      "Helping students in resolving their doubts and evaluating assignments and exam submissions."
+    ]
+  },
+  {
+    "position": "Research Intern",
+    "company": "SPIRE Lab, IISC Bangalore",
+    "bullets": [
+      "Apply deep learning techniques and neural networks to improve acoustic and language models",
+      "Data collection, web scraping and building a language model"
+    ]
+  }
+]

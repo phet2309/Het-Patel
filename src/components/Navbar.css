@@ -47,25 +47,54 @@
     color: white;
 }
 
-.hamburger-icon {
-    margin-top: 1.5rem;
-    margin-right: 1.5rem;
-    height: 2rem;
+.burger {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
     width: 2rem;
+    height: 2rem;
+    padding: 0;
+    background: transparent;
+    border: 0;
     cursor: pointer;
-    color: white;
+    z-index: 1100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
 }
 
-.cross-icon {
-    position: absolute;
-    top: 0;
-    align-self: flex-end;
-    margin-top: 1.5rem;
-    margin-right: 1.5rem;
-    height: 2rem;
+.burger span {
+    display: block;
     width: 2rem;
-    cursor: pointer;
-    color: white;
+    height: 2px;
+    margin: 0;
+    font-size: 0;
+    background: white;
+    border-radius: 2px;
+    transform-origin: center;
+    transition: transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1),
+                opacity 0.2s ease,
+                background 0.2s ease;
+}
+
+.burger.open span:nth-child(1) {
+    transform: translateY(calc(2px + 0.4rem)) rotate(45deg);
+}
+
+.burger.open span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.burger.open span:nth-child(3) {
+    transform: translateY(calc(-2px - 0.4rem)) rotate(-45deg);
+}
+
+.burger:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
 }
 
 .navbar h3 {

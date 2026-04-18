@@ -10,11 +10,23 @@
   /* font-family: 'Josefin Sans', sans-serif; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,body {
   margin: 0;
   height: 100%;
   width: 100%;
   color: white;
+  background: #000;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
 }
 
 

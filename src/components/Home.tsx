@@ -1,13 +1,36 @@
 import './Home.css';
 import { useEffect } from 'react';
 import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Blob from './Blob';
 
+gsap.registerPlugin(ScrollTrigger);
+
 function Home() {
-   
+
 
     useEffect(() => {
-        
+        gsap.to('.bg-container', {
+            yPercent: 50,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.bg-container',
+                start: 'top top',
+                end: 'bottom top',
+                scrub: true,
+            },
+        });
+
+        gsap.to('.info', {
+            yPercent: -15,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.info',
+                start: 'top top',
+                end: 'bottom top',
+                scrub: true,
+            },
+        });
 
         const tl = gsap.timeline();
 

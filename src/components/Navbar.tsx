@@ -1,13 +1,8 @@
 import './Navbar.css';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useRef, useState, useEffect } from 'react';
 import { gsap, Expo, Power1 } from 'gsap';
 import logoImg from './assets/images/hp_fin2.png';
 import { Link } from 'react-scroll';
-
-library.add(faBars, faTimes);
 
 function Navbar() {
   const [menuClicked, setMenuClicked] = useState(false);
@@ -73,18 +68,19 @@ function Navbar() {
               <img style={{cursor: 'pointer'}} src={logoImg} alt="Het" />
           </Link>
 
-        <FontAwesomeIcon
-            icon={faBars}
-            className="hamburger-icon"
-            onClick={handleMenuClicked}
-        />
+        <button
+          type="button"
+          className={`burger${menuClicked ? ' open' : ''}`}
+          aria-label={menuClicked ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuClicked}
+          onClick={handleMenuClicked}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
       </div>
       <div ref={menu} className="navbar-overlay">
-        <FontAwesomeIcon
-          icon={faTimes}
-          className="cross-icon"
-          onClick={handleMenuClicked}
-        />
         <ul ref={navElements}>
           <li>
             <Link 

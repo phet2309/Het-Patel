@@ -5,16 +5,36 @@ import './Slider.css';
 import { Pagination } from 'swiper/modules';
 import Projects from './Projects';
 import { projects } from '../constants/projects';
+import { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function Slider() {
 
+  useEffect(() => {
+    gsap.fromTo(
+      '.mySwiper',
+      { yPercent: 10 },
+      {
+        yPercent: -10,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: '.mySwiper',
+          start: 'top bottom',
+          end: 'bottom top',
+          scrub: true,
+        },
+      }
+    );
+  }, []);
+
   return (
     <>
-      {/* <div className="slider-container"> */}
-      <div></div>
-      <Swiper 
+      <Swiper
               pagination={{ clickable: true }}
-              modules={[Pagination]} 
+              modules={[Pagination]}
               className="mySwiper">
           {
             projects.map((project, index) => (

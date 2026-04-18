@@ -51,6 +51,17 @@ function Skills() {
 
         tl.fromTo(skillContent, { x: '100%', opacity: 0 }, { x: '0%', opacity: 1 });
 
+        gsap.to(skillContent, {
+            yPercent: -10,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: skillContent as Element,
+                start: 'top bottom',
+                end: 'bottom top',
+                scrub: true,
+            },
+        });
+
     }, []);
 
   return (

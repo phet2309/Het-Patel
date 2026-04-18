@@ -35,6 +35,17 @@ function About() {
         tl.fromTo(textContent, { x: '-70%', opacity: 0 }, { x: '0%', opacity: 1 });
         tl.fromTo(img, { x: '100%', opacity: 0 }, { x: '0%', opacity: 1 }, '-=1');
 
+        gsap.to(img, {
+            yPercent: -20,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '#about',
+                start: 'top bottom',
+                end: 'bottom top',
+                scrub: true,
+            },
+        });
+
     }, []);
 
     return (
@@ -60,9 +71,8 @@ function About() {
                     <div className="about-links">
                         <div className="link-card">
                             {/* <a href="https://drive.google.com/file/d/1azyE6pOyAmqjJdxbyrpQRncPULEmJcqd/view?usp=sharing"> */}
-                            <a 
-                            // href="https://drive.google.com/file/d/1Sf8kUurmRafl_V_3cO5TjkWMzdxro7G9/view?usp=sharing"
-                                href='https://drive.google.com/file/d/1Ke-NKodyAqYPvVUPZzct3Av5UkONKOIr/view?usp=sharing'
+                            <a
+                                href='https://docs.google.com/document/d/1R2IiZuQriumEKsKBzqp2QdeV0ehp-G7d/edit?usp=sharing&ouid=100697802736002480607&rtpof=true&sd=true'
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
